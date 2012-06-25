@@ -1,0 +1,6 @@
+2012-06-25 14:00:49 Error: [MissingActionException] Action UsersController::display() could not be found.
+#0 /home/webonise/amsc.assignment.com/lib/Cake/Routing/Dispatcher.php(103): Controller->invokeAction(Object(CakeRequest))
+#1 /home/webonise/amsc.assignment.com/lib/Cake/Routing/Dispatcher.php(85): Dispatcher->_invoke(Object(UsersController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/webonise/amsc.assignment.com/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 /home/webonise/amsc.assignment.com/index.php(40): require('/home/webonise/...')
+#4 {main}
